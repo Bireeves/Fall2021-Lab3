@@ -12,7 +12,7 @@ namespace Lab3
             //gets user input as a 1, 2, or 3
             string userChoice = GetUserChoice();
 
-            //Transform number input to color for output later
+            //Transform number input to color for output
             string userColor = GetThatColor(userChoice);
 
             //returns random number between 1-6
@@ -85,7 +85,7 @@ namespace Lab3
             //Random number generator, gives back a number 1-7
             Random random = new Random();
             int number;
-            number = random.Next(7) + 1;
+            number = random.Next(5) + 1;
 
             return number;
         }
